@@ -1,11 +1,14 @@
+
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Leandro Vian - Programming Portfolio</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/ideal-image-slider.css">
+    {% include slider_styles.html %}
+    {% image_sliders_load_all: true %}
+    <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
@@ -21,7 +24,7 @@
   </head>
   <body>
     <div id="header">
-      {% include slider_styles.html %}
+      
       <div class="wrapper">
         <a href="https://github.com/mattgraham/midnight" class="btn">View On GitHub</a>
         <ul class="nav">
