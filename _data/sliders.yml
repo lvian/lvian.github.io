@@ -3,11 +3,11 @@
   captions: true
 
   images:
-    - src: /image/sd1.jpg
+    - src: /images/sd1.jpg
       alt: image one
-    - src: /image/sd1.jpg
+    - src: /images/sd1.jpg
       alt: image two
-    - src: /image/sd1.jpg
+    - src: /images/sd1.jpg
       alt: image three
   settings:
     height: "'auto'"
