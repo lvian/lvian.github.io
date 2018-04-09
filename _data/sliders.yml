@@ -9,6 +9,6 @@
     - src: /images/sd1.jpg
       alt: image three
   settings:
-    height: "'auto'"
+    height: "'16:9'"
     interval: 4000
     transitionDuration: 1000
