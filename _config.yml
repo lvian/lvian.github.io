@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 name: Leandro Vian, Programming Portfolio
 markdown: kramdown
+image_sliders_load_all: true
