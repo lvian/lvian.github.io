@@ -9,6 +9,13 @@
     - src: /images/sd1.jpg
       alt: image three
   settings:
-    height: "'16:9'"
+    height: 400
+    initialHeight:
+    maxHeight:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
     interval: 4000
     transitionDuration: 1000
