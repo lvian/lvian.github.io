@@ -1,7 +1,6 @@
 # example slider
 - selector: sd_slider
   captions: true
-
   images:
     - src: /images/sd1.jpg
       alt: image one
@@ -12,4 +11,3 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
-    image_sliders_load_all: true
