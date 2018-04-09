@@ -9,7 +9,8 @@
     - src: /images/sd1.jpg
       alt: image three
   settings:
-    height: 400
+    height: "'16:9'"
+    maxHeight: 400
     initialHeight:
     maxHeight:
     effect:
