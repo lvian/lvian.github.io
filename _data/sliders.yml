@@ -3,11 +3,17 @@
   captions: true
   images:
     - src: /images/sd1.jpg
-      alt: image one
-    - src: /images/sd1.jpg
-      alt: image two
-    - src: /images/sd1.jpg
-      alt: image three
+      alt: Main Menu
+    - src: /images/sd2.jpg
+      alt: Loading Screen
+    - src: /images/sd6.jpg
+      alt: In-game Menu
+    - src: /images/sd3.jpg
+      alt: Building a tower in the first level grid.
+    - src: /images/sd4.jpg
+      alt: Slow in area tower.
+    - src: /images/sd5.jpg
+      alt: Tesla Tower in the second level.
   settings:
     height: "'16:9'"
     maxHeight: 400
