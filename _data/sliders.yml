@@ -6,14 +6,10 @@
       alt: Main Menu
     - src: /images/sd2.jpg
       alt: Loading Screen
-    - src: /images/sd6.jpg
-      alt: In-game Menu
     - src: /images/sd3.jpg
-      alt: Building a tower in the first level grid.
+      alt: Start of first level
     - src: /images/sd4.jpg
-      alt: Slow in area tower.
-    - src: /images/sd5.jpg
-      alt: Tesla Tower in the second level.
+      alt: First level advancing.
   settings:
     height: "'16:9'"
     maxHeight: 400
