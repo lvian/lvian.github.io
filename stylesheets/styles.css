@@ -153,6 +153,21 @@ a:focus {
   outline: thin dotted;
 }
 
+.btn-social{
+  color: white;
+  border: unset;
+  padding: 6px 12px;
+}
+
+.btn-social svg{
+  margin-top: 5px;
+}
+.btn-social:hover{
+  color: white;
+  border: unset;
+  padding: 6px 12px;
+}
+
 /*
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
@@ -777,7 +792,7 @@ section #title h5 {
 section #project-spec {
   border: 0;
   outline: none;
-  margin: -20 0 40px 0;
+  margin: -20px 0 40px 0;
   padding: 0 0 5px 0;
 }
 section #project-spec .credits {

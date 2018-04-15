@@ -22,3 +22,35 @@
     nextNavSelector:
     interval: 4000
     transitionDuration: 1000
+
+
+- selector: rr_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /images/rr1.jpg
+      alt: Main Menu
+    - src: /images/rr2.jpg
+      alt: Options Menu (High Scores)
+    - src: /images/rr3.jpg
+      alt: Tutorials
+    - src: /images/rr4.jpg
+      alt: Band Selection
+    - src: /images/rr7.jpg
+      alt: Level props and colors based on chosen band
+    - src: /images/rr5.jpg
+      alt: Gameplay
+    - src: /images/rr6.jpg
+      alt: Gameover
+  settings:
+    height: "'16:9'"
+    maxHeight: 400
+    initialHeight:
+    maxHeight:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+    interval: 4000
+    transitionDuration: 1000
