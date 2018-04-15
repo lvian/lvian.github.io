@@ -120,3 +120,8 @@
 .iis-caption .iis-caption-content a:active {
 	color: #fff;
 }
+
+
+.ideal-image-slider a {
+	border-bottom: unset;
+}
