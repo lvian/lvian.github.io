@@ -10,6 +10,8 @@
       alt: Start of first level
     - src: /images/sd4.jpg
       alt: First level advancing.
+    - src: /images/sd5.jpg
+      alt: Second level.
   settings:
     height: "'16:9'"
     maxHeight: 400
