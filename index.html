@@ -4,6 +4,7 @@ title: Examples
 image_sliders:
   - sd_slider
   - rr_slider
+  - mc_slider
 ---
 <!doctype html>
 <html>
@@ -72,28 +73,27 @@ image_sliders:
         <div id="project-spec">
         <span class="credits left">Unity 3D game engine - C# programming language </span>
         </div>
-        <p>Sturdy Defenders was the first project I focused on after starting collage, spending a lot of hours in this project that went on for a bit over one year.</p>
+        <p>This was the third project I developed, being more experienced in game programming and gamedesign gave me confidence to increase the scope a little bit and tackle new challenges. The project took around 9 months to be concluded</p>
 
-        <p>This game is a 3D tower defense with a steam punk theme, it was planed to have a 3 levels, 4 types of towers and 4 types enemies. The scope was meant to be small, allowing us to acquire some experience, but unfortunatly the artists involved could no longer dedicate time to the project and so we stopped a bit short from the goals we had.</p>
+        <p>This game is a top-down view 2D shooter with a old west theme, with 4 types of guns, dynamites, upgrades and 6 levels with bosses, each with its own history.</p>
 
-        <p>The game was developed using Unity3D 3.4 with the Unity WebPlayer in mind, since browsers no longer support NPAPI I imported the project in the recent version 5 of Unity, I had to fix some compatibility bugs but it worked, allowing to make some screenshots.</p>
+        {% include slider.html selector="mc_slider" %}
 
-
-
-    		<p>Overall this project was an oportunity to learn and implement techniques of game programming that I would not have used in regular web or software development, such as :</p>        
-
+    		<p>So far this project took the least amount of time while having the best UI, mechanics and art, with involved in the following aspects:</p>        
             <ul>
-              <li>Game State controll, level transition and persistance</li>
-              <li>Wave Systems</li>
-              <li>Enemy control, statistics(speed, resistance, and health), state control and animations,
-              <li>Waypoint system, guiding enemies trough the different paths in each stage.</li></li>
-              <li>Tower Systems, with a grid of spots to build, construction and destruction.</li>
-              <li>Tower control, statistics(damage, price, range), animations, and target acquiring based on boundaries detection.
-              <li>Design patterns, such as factory and singleton.</li>
-	      <li>Inheritance and polymorphism.</li>
+              <li>UI build using the NGUI plugin to controll animations, transitions etc.</li>
+              <li>Game State controll with persistance for upgrades unlocked and 7 scenes manegement.</li>
+              <li>Enemy spawn based on wave systems with multiple spawn points on each stage</li>
+              <li>4 weapons with different rates of fire, precision, animations, sounds and bullet behaviours.
+              <li>Enemy AI with 3 behaviours, agressive, balanced and defensive.</li>
+              <li>Whole game "art"</li>
+              <li>Upgrade system</li>
+              <li>Tutorial Level</li>
+	            <li>Tips, during level loading.</li>
+              <li>Game sound manager, responsible for music and sfx play based on gameplay events.</li>
             </ul>
 
-        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/Tower-Defense-Bagual">Sturdy Defenders</a>.</p>
+        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/topdownshooter">Midnight Cowboy</a>.</p>
 
 
         <!-- Rock and Road -->
