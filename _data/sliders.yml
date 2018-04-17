@@ -45,8 +45,7 @@
     - src: /images/rr6.jpg
       alt: Gameover
   settings:
-    height: "'16:9'"
-    maxHeight: 400
+    maxHeight: 554
     initialHeight:
     maxHeight:
     effect:
