@@ -76,8 +76,7 @@
     - src: /images/mc7.jpg
       alt: Defeat Screen
   settings:
-    height: "'16:9'"
-    maxHeight: 400
+    maxHeight: 554
     initialHeight:
     maxHeight:
     effect:
