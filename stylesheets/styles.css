@@ -838,3 +838,7 @@ section #project-spec .credits.right {
     display: none;
   }
 }
+
+.sh-image{
+  text-align: center;
+}

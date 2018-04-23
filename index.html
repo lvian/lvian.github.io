@@ -69,7 +69,7 @@ image_sliders:
 
 
         <!-- Sturdy Defenders -->
-        <h2>Midnight Cowboy</h2>
+        <h2>Midnight Cowboy (Finished)</h2>
         <div id="project-spec">
         <span class="credits left">Unity 3D game engine - C# programming language </span>
         </div>
@@ -98,7 +98,7 @@ image_sliders:
 
 
         <!-- Rock and Road -->
-        <h2>Rock and Road</h2>
+        <h2>Rock and Road (Finished)</h2>
         <div id="project-spec">
         <span class="credits left">Unity 3D game engine - C# programming language </span>
         </div>
@@ -126,7 +126,7 @@ image_sliders:
 
 
         <!-- Midnight Cowboy -->
-        <h2>Sturdy Defenders</h2>
+        <h2>Sturdy Defenders (Abandoned)</h2>
         <div id="project-spec">
         <span class="credits left">Unity 3D game engine - C# programming language </span>
         </div>
@@ -156,105 +156,36 @@ image_sliders:
 
 
         <!-- Shmup prototype -->
-        <h2>Shmup prototype/study</h2>
+        <h2>Shoot Me Up (Halted) </h2>
         <div id="project-spec">
         <span class="credits left">HaxeFlixel game engine - Haxe programming language </span>
         </div>
-        <p>Sturdy Defenders was the first project I focused on after starting collage, spending a lot of hours in this project that went on for a bit over one year.</p>
+        <p>This project began when browsers dropped the support to the NPAPI, making the Unity Webplayer no longer an option for game distribution. The haxe language was chosen because it allowed a project to be compiled to multiple OS's with a single code base.</p>
 
-        <p>This game is a 3D tower defense with a steam punk theme, it was planed to have a 3 levels, 4 types of towers and 4 types enemies. The scope was meant to be small, allowing us to acquire some experience, but unfortunatly the artists involved could no longer dedicate time to the project and so we stopped a bit short from the goals we had.</p>
+        <div class="sh-image">
+            <img src="./images/shootmeup.gif">
+        </div>
 
-        <p>The game was developed using Unity3D 3.4 with the Unity WebPlayer in mind, since browsers no longer support NPAPI I imported the project in the recent version 5 of Unity, I had to fix some compatibility bugs but it worked, allowing to make some screenshots.</p>
-
-
-
-        <p>Overall this project was an oportunity to learn and implement techniques of game programming that I would not have used in regular web or software development, such as :</p>        
+        <p>Overall this project was an opportunity to learn and implement specific aspects of game programming related to shmup games:</p>        
 
             <ul>
-              <li>Game State controll, level transition and persistance</li>
-              <li>Wave Systems</li>
-              <li>Enemy Controll, statistics(speed, resistance and health), state controll and animations,
-              <li>Waypoint system, guiding enemies trough the different paths in each stage.</li></li>
-              <li>Tower Systems, with a grid of spots to build, construction and destruction.</li>
-              <li>Tower Controll, statistics(damage, price, range), animations, guns aiming at enemies and target aquiring based on event system.
-              <li>Design patterns, such as factory and singleton.</li>
+              <li>Enemies spanning from a single Enemy class using inheritance</li>
+              <li>Wave systems built expecting generic enemies, with paths, quantity and delay defined on creation time.</li>
+              <li>More than 10 predefined screen paths that could be assigned to enemies besides random ones.</li>
+              <li>Bullet system based on Bullet parent class, with pools for reusable bullets.</li>
+              <li>Two types of weapons, bullets, and missiles</li>
+              <li>Low level collision control base on layers.</li>
+              <li>Low level render and effect controll based on layers.</li>
+              <li>Homing missile behaviors</li>
+              <li>Art/Animations based on sprite-sheets based on a low-level code control</li>
+              <li>Low level game, level, sound and config managers.</li>
+              <li>Temporary Game 'art'</li>
             </ul>
 
-        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/Tower-Defense-Bagual">Sturdy Defenders</a>.</p>
+        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/shootmeup">Shoot Me Up</a>.</p>
 
 
 
-
-
-    <!--
-
-		 <h2>What will code look like?</h2>
-
-		<p>Your code should be beautiful, or at least that's what the designers think. </p>
-
-		<div class="highlight">
-		<pre><span class="nb">require</span> <span class="s1">'adapter/memory'</span>
-		<span class="nb">require</span> <span class="s1">'toystore'</span>
-
-		<span class="k">class</span> <span class="nc">User</span>
-		  <span class="kp">include</span> <span class="no">Toy</span><span class="o">::</span><span class="no">Store</span>
-		  <span class="n">adapter</span> <span class="ss">:memory</span><span class="p">,</span> <span class="p">{}</span>
-
-		  <span class="n">attribute</span> <span class="ss">:name</span><span class="p">,</span> <span class="nb">String</span>
-		<span class="k">end</span>
-		</pre>
-		</div>
-
-
-		<p>So, this is what HTML Code looks like</p>
-
-		<div class="highlight">
-		<pre><span class="nt">&lt;html&gt;</span>
-		   <span class="nt">&lt;body&gt;</span>
-		      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"header"</span><span class="nt">&gt;</span>
-		          <span class="nt">&lt;nav&gt;</span>
-		             <span class="nt">&lt;li&gt;</span>Home<span class="nt">&lt;/li&gt;</span>
-		             <span class="nt">&lt;li&gt;</span>About Us<span class="nt">&lt;/li&gt;</span>
-		             <span class="nt">&lt;li&gt;</span>Contact<span class="nt">&lt;/li&gt;</span>
-		          <span class="nt">&lt;/nav&gt;</span>
-		      <span class="nt">&lt;/div&gt;</span>
-		   <span class="nt">&lt;/body&gt;</span>
-		<span class="nt">&lt;/html&gt;</span>
-		</pre>
-		</div>
-
-
-		<p>And, then maybe some CSS</p>
-
-		<div class="highlight">
-		<pre><span class="nt">body</span> <span class="p">{</span>
-		  <span class="k">font</span><span class="o">:</span><span class="m">14px</span><span class="o">/</span><span class="m">22px</span> <span class="s1">'Quattrocento Sans'</span><span class="o">,</span> <span class="s2">"Helvetica Neue"</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
-		  <span class="k">color</span><span class="o">:</span><span class="m">#666</span><span class="p">;</span>
-		  <span class="k">font-weight</span><span class="o">:</span><span class="m">300</span><span class="p">;</span>
-		  <span class="k">margin</span><span class="o">:</span> <span class="m">0px</span><span class="p">;</span>
-		  <span class="k">padding</span><span class="o">:</span><span class="m">0px</span> <span class="m">0</span> <span class="m">20px</span> <span class="m">0px</span><span class="p">;</span>
-		  <span class="k">background</span><span class="o">:</span> <span class="sx">url(../images/body-background.png)</span> <span class="m">#eae6d1</span><span class="p">;</span>
-		<span class="p">}</span>
-
-		<span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span> <span class="p">{</span>
-		  <span class="k">color</span><span class="o">:</span><span class="m">#333</span><span class="p">;</span>
-		  <span class="k">margin</span><span class="o">:</span><span class="m">0</span> <span class="m">0</span> <span class="m">10px</span><span class="p">;</span>
-		<span class="p">}</span>
-
-		<span class="nt">p</span><span class="o">,</span> <span class="nt">ul</span><span class="o">,</span> <span class="nt">ol</span><span class="o">,</span> <span class="nt">table</span><span class="o">,</span> <span class="nt">pre</span><span class="o">,</span> <span class="nt">dl</span> <span class="p">{</span>
-		  <span class="k">margin</span><span class="o">:</span><span class="m">0</span> <span class="m">0</span> <span class="m">20px</span><span class="p">;</span>
-		<span class="p">}</span>
-		</pre>
-		</div>
-
-        <p>Inline code would look a little different. <code>We want you to see</code> where it is, but its going to be a little less noticeable. It might also be as simple as <code>:hover</code> and as unique as <code>:first-child</code>. It is up to you. </p>
-
-        <h2>Who's this Matt Graham?</h2>
-        <p>Product designer and frontend developer at Heroku. Formerly with GitHub, Ordered List etc. Rescue diver. He can be found on <a href="http://twitter.com/#!/michigangraham">Twitter</a>, <a href="http://github.com/mattgraham">GitHub</a> and around the country for numerous events. Feel free to fork and use this team as you wish.</p>
-      </section>
-    </div>
-
-  -->
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
     {% include slider_scripts.html %}
   </body>
