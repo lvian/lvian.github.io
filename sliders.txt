@@ -1,0 +1,3 @@
+ <!--
+        {% include slider.html selector="mc_slider" %}
+        -->
