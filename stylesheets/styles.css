@@ -795,6 +795,14 @@ section #project-spec {
   margin: -20px 0 40px 0;
   padding: 0 0 5px 0;
 }
+
+section #project-description {
+  border: 0;
+  outline: none;
+  padding: 0 0 5px 0;
+   color: rgba(255, 255, 255, 0.5);
+}
+
 section #project-spec .credits {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.5);
