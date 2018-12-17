@@ -1,0 +1,62 @@
+
+- selector: rr_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /images/rr1.jpg
+      alt: Main Menu
+    - src: /images/rr2.jpg
+      alt: Options Menu (High Scores)
+    - src: /images/rr3.jpg
+      alt: Tutorials
+    - src: /images/rr4.jpg
+      alt: Band Selection
+    - src: /images/rr7.jpg
+      alt: Level props and colors based on chosen band
+    - src: /images/rr5.jpg
+      alt: Gameplay
+    - src: /images/rr6.jpg
+      alt: Gameover
+  settings:
+    maxHeight: 554
+    initialHeight:
+    maxHeight:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+    interval: 4000
+    transitionDuration: 1000
+
+- selector: mc_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /images/mc1.jpg
+      alt: Main Menu
+    - src: /images/mc2.jpg
+      alt: Upgrades Screen
+    - src: /images/mc3.jpg
+      alt: Level History and tips
+    - src: /images/mc4.jpg
+      alt: Tutorial Level
+    - src: /images/mc5.jpg
+      alt: Level Selection Screen
+    - src: /images/mc6.jpg
+      alt: Night Level
+    - src: /images/mc8.jpg
+      alt: Sunset Level
+    - src: /images/mc7.jpg
+      alt: Defeat Screen
+  settings:
+    maxHeight: 554
+    initialHeight:
+    maxHeight:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+    interval: 4000
+    transitionDuration: 1000
