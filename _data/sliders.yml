@@ -86,3 +86,53 @@
     nextNavSelector:
     interval: 4000
     transitionDuration: 1000
+
+- selector: ue4_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /images/battletanks.jpg
+      alt: Tank Simulator
+    - src: /images/buildingscape.jpg
+      alt: Room Puzzle
+    - src: /images/testinggrounds.jpg
+      alt: Survival FPS
+  settings:
+    maxHeight: 554
+    initialHeight:
+    maxHeight:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+    interval: 4000
+    transitionDuration: 1000
+
+- selector: ue4net_slider
+  bullets: true
+  captions: true
+  images:
+    - src: /images/ctf.jpg
+      alt: Capture the Objective
+    - src: /images/coophorde.jpg
+      alt: Horde Mode 
+    - src: /images/coophorde2.jpg
+      alt: Horde Mode Killing
+  settings:
+    maxHeight: 554
+    initialHeight:
+    maxHeight:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+    interval: 4000
+    transitionDuration: 1000
+
+
+
+
+
+    

@@ -65,159 +65,234 @@ image_sliders:
 
         <p>In this page I showcase games and prototypes I worked on during my spare time, exposing some of the details related to gamedesign and programming. I worked as programmer and game designer for all of them, but as it happens in most indie projects, I ended up having to do even art and sound jobs.</p>
 
-        <p>Please keep in mind that I'm not an artist and that I did do the art so the projects could come to life without ripped assets or be prototypes displaying shapes as their characters. The goal of these projects with all code created from scratch is to showcase the coding techniques, strategies and experience involved into developing them, that's also one of the reasons why each project belonged to a different game genre, to be challenged by different aspects.</p>
+        <p>Please keep in mind that I'm not an artist, but I did it anyway, so the projects could come to life without ripped assets. The goal of these projects is to showcase coding techniques, strategies and experience involved into developing them.</p>
 
-        <p>That's also one of the reasons why each project belongs to a different game genre, this forced us to face different challenges and come up with new solutions for their solutions.</p>
+        <p>That's also one of the reasons why each project belongs to a different video game genre, this forced me to face different challenges and come up with new ideas and implementation for their solutions.</p>
 
-        <p>For any information related to my professional experience as a full stack developer please check my <a href="https://www.linkedin.com/in/leandro-vian/" target="_blank">LinkedIn</a> profile, also feel free to contact me if you have any question.</p>
+        <p>For any information related to my professional experience as a software developer please check my <a href="https://www.linkedin.com/in/leandro-vian/" target="_blank">LinkedIn</a> profile, also feel free to contact me if you have any question.</p>
 
-        <p>All the code produced for each project is available at <a href="https://github.com/lvian" target="_blank" >Github</a> an can be used by anyone, all projects were tested and compiled at Unity3D v5 and HaxeFlixel 4.2.</p>
+        <p>All the code produced for each project is available at <a href="https://github.com/lvian" target="_blank" >Github</a> an can be used by anyone, all projects were tested and compiled at Unity3D v5, HaxeFlixel 4.2 and Unreal Engine 4.21.</p>
+
+
+        <!-- CONTENT -->
+
+
+        <button class="tablink" onclick="openCity('Cplus', this, 'red')" id="defaultOpen">C++</button>
+        <button class="tablink" onclick="openCity('Csharp', this, 'green')">C#</button>
+        <button class="tablink" onclick="openCity('haxe', this, 'blue')">Haxe</button>
+
+        <div id="Cplus" class="tabcontent">
+          <section>
+
+            <!-- network prototypes -->
+            <h2>Unreal Engine Network Ready Prototypes</h2>
+            <div id="project-spec">
+              <span class="credits left">Unreal Engine 4 engine - C++ programming language </span>
+            </div>
+            <p>These two prototypes were created during another UE4 web course focused on C++ and UE4 network ready projects. The first prototype is a first person stealth game, where you need to capture the objective without the guards detecting you, and the second prototype is a third person shooter where you need to survive for as long as possible against waves of enemies.</p>
+
+            <p>Both prototypes were developed with multiplayer support in mind, and were tested with multiple players and dedicated server options, to ensure that the replications of all mechanics were working correctly.</p>
+
+            {% include slider.html selector="ue4net_slider" %}
+
+            <p>These prototypes helped to consolidate all the new knowledge acquired in the previous course, with the added aspect of network:</p>        
+
+                <ul>
+                  <li>Heavy focus on C++ implementation.</li>
+                  <li>Unreal Blueprint extending C++ developed classes.</li>
+                  <li>Network ready games, using replication and server aknowledge actions.</li>
+                  <li>Interface using Widgets</li>
+                  <li>AI Blackboard and behavior trees.</li>
+                  <li>AI Perception.</li>
+                  <li>Materials, particle systems and emmiters</li>
+                  <li>Environmental Query System (EQS).</li>
+                  <li>Animation trees.</li>
+                </ul>
+
+            <p>For the full Unreal Engine 4 code check out <a href="https://github.com/lvian/capturetheflag">Capture the Objective</a>, <a href="https://github.com/lvian/coophordemode">Coop Horde Mode</a>.</p>
+
+
+            <!-- three prototypes -->
+            <h2>Unreal Engine Prototypes</h2>
+            <div id="project-spec">
+              <span class="credits left">Unreal Engine 4 engine - C++ programming language </span>
+            </div>
+            <p>These three prototypes were created during a UE4 web course focused on C++. The first prototype consists of rooms that required basic puzzles to be solved in order to proceed, the second protytype is a tank simulator, and the third is a first person shooter.</p>
+
+            {% include slider.html selector="ue4_slider" %}
+
+            <p>These prototypes were a great opportunity to bring my experience from previous projects to UE4 and C++ :</p>        
+
+                <ul>
+                  <li>Heavy focus on C++ implementation.</li>
+                  <li>Actors, components and controllers.</li>
+                  <li>Unreal Blueprint extending C++ developed classes.</li>
+                  <li>Interface using Widgets</li>
+                  <li>AI Blackboard and behavior trees.</li>
+                  <li>AI Perception.</li>
+                  <li>Physics Constraints.</li>
+                  <li>Materials, particle systems and emmiters</li>
+                  <li>Environmental Query System (EQS)</li>
+                  <li>Animation trees and Blend spaces</li>
+                  <li>UE4 tools and other specifics</li>
+                </ul>
+
+            <p>For the full Unreal Engine 4 code check out <a href="https://github.com/lvian/building-escape">Room Puzzle</a>, <a href="https://github.com/lvian/BattleTank">Tank Simulator</a> , <a href="https://github.com/lvian/testing-grounds">Survival FPS</a>.</p>
+
+          </section>
+        </div>
+
+        <div id="Csharp" class="tabcontent">
+          <section>
+            <!-- Sturdy Defenders -->
+            <h2>Midnight Cowboy </h2>
+            <div id="project-spec">
+            <span class="credits left">Unity 3D game engine - C# programming language - Finished</span>
+            </div>
+            <p>This was the third project I developed, being more experienced in game programming and gamedesign gave me confidence to increase the scope a little bit and tackle new challenges. The project took around 9 months to be concluded</p>
+
+            <p>This game is a top-down view 2D shooter with a old west theme, with 4 types of guns, dynamites, upgrades and 6 levels with bosses, each with its own history.</p>
+
+
+            <div class="sh-image">
+                <img src="./images/mc1.gif">
+                <div id="project-description">
+                  <span class="credits">Menus - Upgrades - Day Level</span>
+                </div>
+            </div>
+            
+           
+            <p>So far this project took the least amount of time while having the best UI, mechanics and art, with involved in the following aspects:</p>        
+                <ul>
+                  <li>UI build using the NGUI plugin to controll animations, transitions etc.</li>
+                  <li>Game State controll with persistance for upgrades unlocked and 7 scenes manegement.</li>
+                  <li>Enemy spawn based on wave systems with multiple spawn points on each stage</li>
+                  <li>4 weapons with different rates of fire, precision, animations, sounds and bullet behaviours.</li>
+                  <li>Enemy AI with 3 behaviours, agressive, balanced and defensive.</li>
+                  <li>Dynamic shadows using the 2DDL plugin.</li>
+                  <li>Whole game "art"</li>
+                  <li>Upgrade system</li>
+                  <li>Tutorial Level</li>
+                  <li>Tips, during level loading.</li>
+                  <li>Game sound manager, responsible for music and sfx play based on gameplay events.</li>
+                </ul>
+
+            <div class="sh-image">
+                <img src="./images/mc2.gif">
+                <div id="project-description">
+                  <span class="credits">Night Level</span>
+                </div>
+            </div>
+            
+            <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/topdownshooter">Midnight Cowboy</a>.</p>
+
+
+            <!-- Rock and Road -->
+            <h2>Rock and Road</h2>
+            <div id="project-spec">
+            <span class="credits left">Unity 3D game engine - C# programming language - Finished</span>
+            </div>
+            <p>Rock and Road, was develeped after Sturdy Defenders reached a dead end.</p>
+
+            <p>This game is a 2D infinite runner with a rock'n roll theme, the idea was for it to be a simple high score game as those played on online game websites. The scope was meant to be smaller than Sturdy Defenders since we no longer had artists, so in this project I programmed, drew and created some audio effects.</p>
+
+             <div class="sh-image">
+                <img src="./images/rr.gif">
+                <div id="project-description">
+                  <span class="credits">Menus - Gameplay</span>
+                </div>
+            </div>
+
+            <p>This project was finished as we menaged to developed all ideas and mechanics we had in mind when we started, while avoiding feature creap. Some of the mechanics and topics I developed were :</p>        
+
+                <ul>
+                  <li>Game and level state system, developed to acomodade the seamless menu/level transiction of a single scene game.</li>
+                  <li>Increasing difficulty based on distance traveled by the player.</li>
+                  <li>Obstacle spawn system that picked from a predefined set of obstacles based on the current difficulty</li>
+                  <li>Player animation controller with multiple animations based on player parameters or triggers</li>
+                  <li>Event systems for queuing scores and collectables values to be displayed in the UI.</li>
+                  <li>Game sound manager, responsible for music and sfx play based on gameplay events.</li>
+                  <li>Whole "art" of the project.</li>
+                  <li>UI build using the NGUI plugin to controll animations, transitions etc.</li>
+                </ul>
+
+            <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/Tower-Defense-Bagual">Sturdy Defenders</a>.</p>
+
+
+
+            <!-- Midnight Cowboy -->
+            <h2>Sturdy Defenders</h2>
+            <div id="project-spec">
+              <span class="credits left">Unity 3D game engine - C# programming language - Halted</span>
+            </div>
+            <p> Sturdy Defenders was the first project I focused on after starting collage, spending a lot of hours in this project that went on for a bit over one year.</p>
+
+            <p>This game is a 3D tower defense with a steam punk theme, it was planed to have a 3 levels, 4 types of towers and 4 types enemies. The scope was meant to be small, allowing us to acquire some experience, but unfortunatly the artists involved could no longer dedicate time to the project and so we stopped a bit short from the goals we had.</p>
+
+            <p>The game was developed using Unity3D 3.4 with the Unity WebPlayer in mind, since browsers no longer support NPAPI I imported the project in the recent version 5 of Unity, I had to fix some compatibility bugs but it worked, allowing to make some screenshots.</p>
+
+            {% include slider.html selector="sd_slider" %}
+
+
+            <p>Even though we could not finish the project, it was an oportunity to learn and implement techniques of game programming that I would not have used in regular web or software development, such as :</p>        
+
+                <ul>
+                  <li>Game State controll, level transition and persistance</li>
+                  <li>Wave Systems</li>
+                  <li>Enemy Controll, statistics(speed, resistance and health), state controll and animations.</li>
+                  <li>Waypoint system, guiding enemies trough the different paths in each stage.</li>
+                  <li>Tower Systems, with a grid of spots to build, construction and destruction.</li>
+                  <li>Tower Controll, statistics(damage, price, range), animations, guns aiming at enemies and target aquiring based on event system.</li>
+                  <li>Design patterns, such as factory and singleton.</li>
+                </ul>
+
+            <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/Tower-Defense-Bagual">Sturdy Defenders</a>.</p>
+          </section>
+        </div>
+
+        <div id="haxe" class="tabcontent">
+          <section>
+            <h2>Shoot Me Up</h2>
+            <div id="project-spec">
+              <span class="credits left">HaxeFlixel game engine - Haxe programming language - Halted</span>
+            </div>
+            <p>This project began when browsers dropped the support to the NPAPI, making the Unity Webplayer no longer an option for game distribution. The haxe language was chosen because it allowed a project to be compiled to multiple OS's with a single code base.</p>
+
+            <div class="sh-image">
+                <img src="./images/shootmeup.gif">
+                <div id="project-spec">
+                  <span class="credits">Shmup prototype running</span>
+                </div>
+            </div>
+
+            <p>Overall this project was an opportunity to learn and implement specific aspects of game programming related to shmup games:</p>        
+
+                <ul>
+                  <li>Enemies spanning from a single Enemy class using inheritance</li>
+                  <li>Wave systems built expecting generic enemies, with paths, quantity and delay defined on creation time.</li>
+                  <li>More than 10 predefined screen paths that could be assigned to enemies besides random ones.</li>
+                  <li>Bullet system based on Bullet parent class, with pools for reusable bullets.</li>
+                  <li>Two types of weapons, bullets, and missiles</li>
+                  <li>Low level collision control base on layers.</li>
+                  <li>Low level render and effect controll based on layers.</li>
+                  <li>Homing missile behaviors</li>
+                  <li>Art/Animations based on sprite-sheets based on a low-level code control</li>
+                  <li>Low level game, level, sound and config managers.</li>
+                  <li>Temporary Game 'art'</li>
+                </ul>
+
+            <p>For the full project code in Haxe check out <a href="https://github.com/lvian/shootmeup">Shoot Me Up</a>.</p>
+          </section>
+        </div>
+
 
         <h3></h3>
 
-
-        <!-- Sturdy Defenders -->
-        <h2>Midnight Cowboy </h2>
-        <div id="project-spec">
-        <span class="credits left">Unity 3D game engine - C# programming language - Finished</span>
-        </div>
-        <p>This was the third project I developed, being more experienced in game programming and gamedesign gave me confidence to increase the scope a little bit and tackle new challenges. The project took around 9 months to be concluded</p>
-
-        <p>This game is a top-down view 2D shooter with a old west theme, with 4 types of guns, dynamites, upgrades and 6 levels with bosses, each with its own history.</p>
-
-
-        <div class="sh-image">
-            <img src="./images/mc1.gif">
-            <div id="project-description">
-              <span class="credits">Menus - Upgrades - Day Level</span>
-            </div>
-        </div>
-        
-       
-    		<p>So far this project took the least amount of time while having the best UI, mechanics and art, with involved in the following aspects:</p>        
-            <ul>
-              <li>UI build using the NGUI plugin to controll animations, transitions etc.</li>
-              <li>Game State controll with persistance for upgrades unlocked and 7 scenes manegement.</li>
-              <li>Enemy spawn based on wave systems with multiple spawn points on each stage</li>
-              <li>4 weapons with different rates of fire, precision, animations, sounds and bullet behaviours.
-              <li>Enemy AI with 3 behaviours, agressive, balanced and defensive.</li>
-              <li>Dynamic shadows using the 2DDL plugin.</li>
-              <li>Whole game "art"</li>
-              <li>Upgrade system</li>
-              <li>Tutorial Level</li>
-	            <li>Tips, during level loading.</li>
-              <li>Game sound manager, responsible for music and sfx play based on gameplay events.</li>
-            </ul>
-
-        <div class="sh-image">
-            <img src="./images/mc2.gif">
-            <div id="project-description">
-              <span class="credits">Night Level</span>
-            </div>
-        </div>
-        
-        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/topdownshooter">Midnight Cowboy</a>.</p>
-
-
-        <!-- Rock and Road -->
-        <h2>Rock and Road</h2>
-        <div id="project-spec">
-        <span class="credits left">Unity 3D game engine - C# programming language - Finished</span>
-        </div>
-        <p>Rock and Road, was develeped after Sturdy Defenders reached a dead end.</p>
-
-        <p>This game is a 2D infinite runner with a rock'n roll theme, the idea was for it to be a simple high score game as those played on online game websites. The scope was meant to be smaller than Sturdy Defenders since we no longer had artists, so in this project I programmed, drew and created some audio effects.</p>
-
-         <div class="sh-image">
-            <img src="./images/rr.gif">
-            <div id="project-description">
-              <span class="credits">Menus - Gameplay</span>
-            </div>
-        </div>
-
-        <p>This project was finished as we menaged to developed all ideas and mechanics we had in mind when we started, while avoiding feature creap. Some of the mechanics and topics I developed were :</p>        
-
-            <ul>
-              <li>Game and level state system, developed to acomodade the seamless menu/level transiction of a single scene game.</li>
-              <li>Increasing difficulty based on distance traveled by the player.</li>
-              <li>Obstacle spawn system that picked from a predefined set of obstacles based on the current difficulty</li>
-              <li>Player animation controller with multiple animations based on player parameters or triggers</li>
-              <li>Event systems for queuing scores and collectables values to be displayed in the UI.</li>
-              <li>Game sound manager, responsible for music and sfx play based on gameplay events.</li>
-              <li>Whole "art" of the project.</li>
-              <li>UI build using the NGUI plugin to controll animations, transitions etc.</li>
-            </ul>
-
-        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/Tower-Defense-Bagual">Sturdy Defenders</a>.</p>
-
-
-
-        <!-- Midnight Cowboy -->
-        <h2>Sturdy Defenders</h2>
-        <div id="project-spec">
-        <span class="credits left">Unity 3D game engine - C# programming language - Halted</span>
-        </div>
-        <p>Sturdy Defenders was the first project I focused on after starting collage, spending a lot of hours in this project that went on for a bit over one year.</p>
-
-        <p>This game is a 3D tower defense with a steam punk theme, it was planed to have a 3 levels, 4 types of towers and 4 types enemies. The scope was meant to be small, allowing us to acquire some experience, but unfortunatly the artists involved could no longer dedicate time to the project and so we stopped a bit short from the goals we had.</p>
-
-        <p>The game was developed using Unity3D 3.4 with the Unity WebPlayer in mind, since browsers no longer support NPAPI I imported the project in the recent version 5 of Unity, I had to fix some compatibility bugs but it worked, allowing to make some screenshots.</p>
-
-        {% include slider.html selector="sd_slider" %}
-
-
-        <p>Even though we could not finish the project, it was an oportunity to learn and implement techniques of game programming that I would not have used in regular web or software development, such as :</p>        
-
-            <ul>
-              <li>Game State controll, level transition and persistance</li>
-              <li>Wave Systems</li>
-              <li>Enemy Controll, statistics(speed, resistance and health), state controll and animations,
-              <li>Waypoint system, guiding enemies trough the different paths in each stage.</li></li>
-              <li>Tower Systems, with a grid of spots to build, construction and destruction.</li>
-              <li>Tower Controll, statistics(damage, price, range), animations, guns aiming at enemies and target aquiring based on event system.
-              <li>Design patterns, such as factory and singleton.</li>
-            </ul>
-
-        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/Tower-Defense-Bagual">Sturdy Defenders</a>.</p>
-
-
-
-        <!-- Shmup prototype -->
-        <h2>Shoot Me Up</h2>
-        <div id="project-spec">
-        <span class="credits left">HaxeFlixel game engine - Haxe programming language - Halted</span>
-        </div>
-        <p>This project began when browsers dropped the support to the NPAPI, making the Unity Webplayer no longer an option for game distribution. The haxe language was chosen because it allowed a project to be compiled to multiple OS's with a single code base.</p>
-
-        <div class="sh-image">
-            <img src="./images/shootmeup.gif">
-            <div id="project-spec">
-              <span class="credits">Shmup prototype running</span>
-            </div>
-        </div>
-
-        <p>Overall this project was an opportunity to learn and implement specific aspects of game programming related to shmup games:</p>        
-
-            <ul>
-              <li>Enemies spanning from a single Enemy class using inheritance</li>
-              <li>Wave systems built expecting generic enemies, with paths, quantity and delay defined on creation time.</li>
-              <li>More than 10 predefined screen paths that could be assigned to enemies besides random ones.</li>
-              <li>Bullet system based on Bullet parent class, with pools for reusable bullets.</li>
-              <li>Two types of weapons, bullets, and missiles</li>
-              <li>Low level collision control base on layers.</li>
-              <li>Low level render and effect controll based on layers.</li>
-              <li>Homing missile behaviors</li>
-              <li>Art/Animations based on sprite-sheets based on a low-level code control</li>
-              <li>Low level game, level, sound and config managers.</li>
-              <li>Temporary Game 'art'</li>
-            </ul>
-
-        <p>For the full Unity3D code in C# check out <a href="https://github.com/lvian/shootmeup">Shoot Me Up</a>.</p>
-
-
-
-    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
-    {% include slider_scripts.html %}
+        <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+        {% include slider_scripts.html %}
+  
+      </section>
+    </div>
   </body>
 </html>
 
